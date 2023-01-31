@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/restoqita/static/css/main.093bdc58.css",
+    "main.js": "/restoqita/static/js/main.0109d1c0.js",
+    "index.html": "/restoqita/index.html",
+    "main.093bdc58.css.map": "/restoqita/static/css/main.093bdc58.css.map",
+    "main.0109d1c0.js.map": "/restoqita/static/js/main.0109d1c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.093bdc58.css",
+    "static/js/main.0109d1c0.js"
+  ]
+}
