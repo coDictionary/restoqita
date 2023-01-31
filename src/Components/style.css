@@ -1,0 +1,144 @@
+#bg-home {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://demos.onepagelove.com/html/resto/img/hero_bg_1.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  @apply h-screen;
+}
+
+.transisi{
+    transition: 0.5s;
+}
+
+.link{
+    transition: .2s ease-in-out;
+    @apply text-gray-500
+}
+.link:hover{
+    @apply text-white
+}
+
+/* sticky */
+
+header.sticky{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+    @apply fixed py-5 px-40 text-black z-50 max-xl:px-5
+}
+header.sticky ul{
+    @apply text-black text-sm
+}
+header.sticky .logo h2{
+    @apply text-black border-black text-lg
+}
+
+.col-50{
+    width: 50%;
+}
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+}
+
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, #F2C)
+}
+
+.link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%
+}
+
+.bg-menu{
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://demos.onepagelove.com/html/resto/img/hero_bg_2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.container-modal {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 26px;
+}
+  
+.container-image {
+    
+    display: flex;
+    @apply w-1/2
+}
+  
+.container-image img {
+    @apply rounded-md w-full;
+}
+  
+.container-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+
+    @apply justify-center w-1/2
+}
+
+.bottom-foot{
+    background-color: #262626;
+}
+
+.title-foot{
+    letter-spacing: 0.3em
+}
+
+.icon{
+    width: 22px;
+    height: 22px;
+    transition: .2s ease-in-out;
+}
+.icon:hover{
+    @apply text-white
+}
+
+@media (max-width:768px) {
+    .bg-home {
+        background-position: center center;
+    }
+
+    .nav-menu.active {
+        display: block;
+        @apply bg-red-500
+    }
+
+    header.sticky .ham {
+        @apply bg-red-500
+    }
+
+    header.sticky .hamburger-react div {
+        background: black !important;
+    }
+
+    header.sticky .ham-menu {
+        @apply top-20
+    }
+
+    ham-menu{
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    }
+}
