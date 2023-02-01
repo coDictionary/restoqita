@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/restoqita/static/css/main.093bdc58.css",
-    "main.js": "/restoqita/static/js/main.8e7edd7c.js",
+    "main.js": "/restoqita/static/js/main.ce5916bd.js",
     "index.html": "/restoqita/index.html",
     "main.093bdc58.css.map": "/restoqita/static/css/main.093bdc58.css.map",
-    "main.8e7edd7c.js.map": "/restoqita/static/js/main.8e7edd7c.js.map"
+    "main.ce5916bd.js.map": "/restoqita/static/js/main.ce5916bd.js.map"
   },
   "entrypoints": [
     "static/css/main.093bdc58.css",
-    "static/js/main.8e7edd7c.js"
+    "static/js/main.ce5916bd.js"
   ]
 }
