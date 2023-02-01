@@ -16,26 +16,25 @@ function App() {
     }, 2000)
   })
   return (
-
-    
     <div>
-      {loading ? (<div  className="flex justify-center item-center h-screen ">
-        <ReactLoading type="bars" color="blue"></ReactLoading>
-      </div>):(
+      {loading ? (
+        <div className="flex h-screen justify-center items-center">
+          <ReactLoading type="bubbles" color="blue" width={100} height={100}></ReactLoading>
+          Sabar sedikit yaa..
+        </div>
+      ) : (
         <>
-          <Header/>
+          <Header />
           <main>
-            <Home/>
-            <About/>
+            <Home />
+            <About />
             <Menu />
             <Contact />
             <Footer />
           </main>
         </>
-      
       )}
     </div>
-    
   );
 }
 
